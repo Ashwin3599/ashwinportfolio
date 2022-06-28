@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 
 //Middlewares
-
+app.use(express.static('public'));
 
 //Routes
 app.get('/', (req, res) => {
