@@ -45,5 +45,5 @@ app.get("/video", function (req, res) {
 });
 
 app.listen(4000, function () {
-  console.log("Listening on port 8000!");
+  console.log("Listening on port 4000!");
 });
