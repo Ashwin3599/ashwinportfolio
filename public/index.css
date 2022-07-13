@@ -4,6 +4,15 @@ body {
   color: #818181;
   overflow-x: hidden;
 }
+
+h1 {
+  text-decoration: none;
+  color: #fff;
+  font-size: 24px;
+  font-weight: 600;
+  font-family: "Roboto Mono", monospace;
+}
+
 h2 {
   font-size: 24px;
   text-transform: uppercase;
@@ -28,6 +37,7 @@ p {
   font-family: Montserrat, sans-serif;
   margin: 0px;
 }
+
 .container-fluid {
   padding: 60px 50px;
   background-color: #000;
@@ -153,6 +163,7 @@ footer .glyphicon {
   -webkit-animation-duration: 1s;
   visibility: visible;
 }
+
 @keyframes slide {
   0% {
     opacity: 0;
@@ -187,4 +198,8 @@ footer .glyphicon {
   .logo {
     font-size: 150px;
   }
+}
+
+::-webkit-scrollbar {
+  width: 0px;
 }
